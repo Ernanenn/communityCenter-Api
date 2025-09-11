@@ -1,0 +1,1943 @@
+{
+	"info": {
+		"_postman_id": "0b2189bf-e29e-44a4-be9d-bf5b1c110102",
+		"name": "Community Center API",
+		"description": "API para gerenciamento de centros comunitários, recursos e históricos.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "42381728"
+	},
+	"item": [
+		{
+			"name": "communityCenter",
+			"item": [
+				{
+					"name": "{communityCenterId}",
+					"item": [
+						{
+							"name": "currentNumberOfPeople",
+							"item": [
+								{
+									"name": "CT-008",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "apiKey",
+												"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+												"description": "(Required) "
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"currentNumberOfPeople\": 200\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseUrl}}/communityCenter/b7305bde-3b69-4579-a573-9166123a3a6e/currentNumberOfPeople"
+									},
+									"response": [
+										{
+											"name": "Atualização bem-sucedida",
+											"originalRequest": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "apiKey",
+														"value": "string",
+														"description": "(Required) "
+													},
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n  \"currentNumberOfPeople\": 120\n}",
+													"options": {
+														"raw": {
+															"headerFamily": "json",
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/communityCenter/:communityCenterId/currentNumberOfPeople",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"communityCenter",
+														":communityCenterId",
+														"currentNumberOfPeople"
+													],
+													"variable": [
+														{
+															"key": "communityCenterId"
+														}
+													]
+												}
+											},
+											"status": "No Content",
+											"code": 204,
+											"_postman_previewlanguage": "text",
+											"header": [],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								},
+								{
+									"name": "CT-009",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "apiKey",
+												"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+												"description": "(Required) "
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"currentNumberOfPeople\": 300\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseUrl}}/communityCenter/b7305bde-3b69-4579-a573-9166123a3a6e/currentNumberOfPeople"
+									},
+									"response": [
+										{
+											"name": "Atualização bem-sucedida",
+											"originalRequest": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "apiKey",
+														"value": "string",
+														"description": "(Required) "
+													},
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n  \"currentNumberOfPeople\": 120\n}",
+													"options": {
+														"raw": {
+															"headerFamily": "json",
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/communityCenter/:communityCenterId/currentNumberOfPeople",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"communityCenter",
+														":communityCenterId",
+														"currentNumberOfPeople"
+													],
+													"variable": [
+														{
+															"key": "communityCenterId"
+														}
+													]
+												}
+											},
+											"status": "No Content",
+											"code": 204,
+											"_postman_previewlanguage": "text",
+											"header": [],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								},
+								{
+									"name": "CT-010",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "apiKey",
+												"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+												"description": "(Required) "
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"currentNumberOfPeople\": 200\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseUrl}}/communityCenter/1995a97b-d592-4530-9e04-944cab7fab41/currentNumberOfPeople"
+									},
+									"response": [
+										{
+											"name": "Atualização bem-sucedida",
+											"originalRequest": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "apiKey",
+														"value": "string",
+														"description": "(Required) "
+													},
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n  \"currentNumberOfPeople\": 120\n}",
+													"options": {
+														"raw": {
+															"headerFamily": "json",
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/communityCenter/:communityCenterId/currentNumberOfPeople",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"communityCenter",
+														":communityCenterId",
+														"currentNumberOfPeople"
+													],
+													"variable": [
+														{
+															"key": "communityCenterId"
+														}
+													]
+												}
+											},
+											"status": "No Content",
+											"code": 204,
+											"_postman_previewlanguage": "text",
+											"header": [],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "historic",
+							"item": [
+								{
+									"name": "CT-018",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "apiKey",
+												"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+												"description": "(Required) "
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											}
+										],
+										"url": "{{baseUrl}}/communityCenter/10907b8d-5083-4469-a851-dda0a53cbe48/historic"
+									},
+									"response": [
+										{
+											"name": "Histórico encontrado",
+											"originalRequest": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "apiKey",
+														"value": "string",
+														"description": "(Required) "
+													},
+													{
+														"key": "Accept",
+														"value": "application/json"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/communityCenter/:communityCenterId/historic",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"communityCenter",
+														":communityCenterId",
+														"historic"
+													],
+													"variable": [
+														{
+															"key": "communityCenterId"
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json"
+												}
+											],
+											"cookie": [],
+											"body": "{\n  \"communityCenters\": [\n    {\n      \"communityCenterId\": \"cc-123\",\n      \"name\": \"Centro Comunitário Bairro Azul\",\n      \"incoming\": {\n        \"doctor\": 2,\n        \"volunteer\": 5\n      },\n      \"outcoming\": {\n        \"basicFoodBasket\": 3\n      }\n    },\n    {\n      \"communityCenterId\": \"2c275dc0-46af-491c-97f1-89fa1d6afe56\",\n      \"name\": \"Centro Comunitário Jardim Verde\",\n      \"incoming\": {\n        \"basicFoodBasket\": 3\n      },\n      \"outcoming\": {\n        \"doctor\": 2,\n        \"volunteer\": 5\n      }\n    }\n  ]\n}"
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "CT-011",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "apiKey",
+										"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+										"description": "(Required) "
+									}
+								],
+								"url": "{{baseUrl}}/communityCenter/d7149c94-3a35-4b24-8aea-7d271fdd7ba9"
+							},
+							"response": [
+								{
+									"name": "Centro removido com sucesso",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "apiKey",
+												"value": "string",
+												"description": "(Required) "
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/communityCenter/:communityCenterId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"communityCenter",
+												":communityCenterId"
+											],
+											"variable": [
+												{
+													"key": "communityCenterId"
+												}
+											]
+										}
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "CT-012",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "apiKey",
+										"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+										"description": "(Required) "
+									}
+								],
+								"url": "{{baseUrl}}/communityCenter/a7c8b279-bdbc-4f0d-8867-0f36d13f2556"
+							},
+							"response": [
+								{
+									"name": "Centro removido com sucesso",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "apiKey",
+												"value": "string",
+												"description": "(Required) "
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/communityCenter/:communityCenterId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"communityCenter",
+												":communityCenterId"
+											],
+											"variable": [
+												{
+													"key": "communityCenterId"
+												}
+											]
+										}
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "exchange",
+					"item": [
+						{
+							"name": "CT-013",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "apiKey",
+										"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+										"description": "(Required) "
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"communityCenter\": [\n    {\n      \"resources\": {\n        \"doctor\": 1\n      },\n      \"communityCenterId\": \"1d841139-db0d-46c8-8543-d271a3f077d4\"\n    },\n    {\n      \"resources\": {\n        \"basicFoodBasket\": 2\n      },\n      \"communityCenterId\": \"21da5bb2-c189-4b88-a416-62beff68c176\"\n    }\n  ]\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/communityCenter/exchange"
+							},
+							"response": [
+								{
+									"name": "Intercâmbio realizado com sucesso",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "apiKey",
+												"value": "string",
+												"description": "(Required) "
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"communityCenter\": [\n    {\n      \"resources\": {\n        \"doctor\": 2,\n        \"volunteer\": 5,\n        \"medicalSuppliesKit\": 3,\n        \"transportVehicle\": 1,\n        \"basicFoodBasket\": 10\n      },\n      \"communityCenterId\": \"2c275dc0-46af-491c-97f1-89fa1d6afe56\"\n    },\n    {\n      \"resources\": {\n        \"doctor\": 2,\n        \"volunteer\": 5,\n        \"medicalSuppliesKit\": 3,\n        \"transportVehicle\": 1,\n        \"basicFoodBasket\": 10\n      },\n      \"communityCenterId\": \"2c275dc0-46af-491c-97f1-89fa1d6afe56\"\n    }\n  ]\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseUrl}}/communityCenter/exchange"
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "CT-014",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "apiKey",
+										"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+										"description": "(Required) "
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"communityCenter\": [\n    {\n      \"resources\": {\n        \"doctor\": 1\n      },\n      \"communityCenterId\": \"1d841139-db0d-46c8-8543-d271a3f077d4\"\n    },\n    {\n      \"resources\": {\n        \"basicFoodBasket\": 1\n      },\n      \"communityCenterId\": \"10907b8d-5083-4469-a851-dda0a53cbe48\"\n    }\n  ]\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/communityCenter/exchange"
+							},
+							"response": [
+								{
+									"name": "Intercâmbio realizado com sucesso",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "apiKey",
+												"value": "string",
+												"description": "(Required) "
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"communityCenter\": [\n    {\n      \"resources\": {\n        \"doctor\": 2,\n        \"volunteer\": 5,\n        \"medicalSuppliesKit\": 3,\n        \"transportVehicle\": 1,\n        \"basicFoodBasket\": 10\n      },\n      \"communityCenterId\": \"2c275dc0-46af-491c-97f1-89fa1d6afe56\"\n    },\n    {\n      \"resources\": {\n        \"doctor\": 2,\n        \"volunteer\": 5,\n        \"medicalSuppliesKit\": 3,\n        \"transportVehicle\": 1,\n        \"basicFoodBasket\": 10\n      },\n      \"communityCenterId\": \"2c275dc0-46af-491c-97f1-89fa1d6afe56\"\n    }\n  ]\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseUrl}}/communityCenter/exchange"
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "CT-015",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "apiKey",
+										"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+										"description": "(Required) "
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"communityCenter\": [\n    {\n      \"resources\": {\n        \"doctor\": 1\n      },\n      \"communityCenterId\": \"e2d5a326-7600-4746-a1ca-62498f830352\"\n    },\n    {\n      \"resources\": {\n        \"basicFoodBasket\": 1\n      },\n      \"communityCenterId\": \"10907b8d-5083-4469-a851-dda0a53cbe48\"\n    }\n  ]\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/communityCenter/exchange"
+							},
+							"response": [
+								{
+									"name": "Intercâmbio realizado com sucesso",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "apiKey",
+												"value": "string",
+												"description": "(Required) "
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"communityCenter\": [\n    {\n      \"resources\": {\n        \"doctor\": 2,\n        \"volunteer\": 5,\n        \"medicalSuppliesKit\": 3,\n        \"transportVehicle\": 1,\n        \"basicFoodBasket\": 10\n      },\n      \"communityCenterId\": \"2c275dc0-46af-491c-97f1-89fa1d6afe56\"\n    },\n    {\n      \"resources\": {\n        \"doctor\": 2,\n        \"volunteer\": 5,\n        \"medicalSuppliesKit\": 3,\n        \"transportVehicle\": 1,\n        \"basicFoodBasket\": 10\n      },\n      \"communityCenterId\": \"2c275dc0-46af-491c-97f1-89fa1d6afe56\"\n    }\n  ]\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseUrl}}/communityCenter/exchange"
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "highOccupation",
+					"item": [
+						{
+							"name": "CT-016",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "apiKey",
+										"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+										"description": "(Required) "
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"url": "{{baseUrl}}/communityCenter/highOccupation"
+							},
+							"response": [
+								{
+									"name": "Lista de centros",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "apiKey",
+												"value": "string",
+												"description": "(Required) "
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											}
+										],
+										"url": "{{baseUrl}}/communityCenter/highOccupation"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "[\n  {\n    \"communityCenterId\": \"7a39ad57-b793-430b-8ce3-7a2b17c19f4e\",\n    \"name\": \"Centro Comunitário Bairro Azul\",\n    \"address\": \"Rua das Flores, 123\",\n    \"maxNumberOfPeople\": 200,\n    \"currentNumberOfPeople\": 120,\n    \"resources\": {\n      \"doctor\": 3,\n      \"volunteer\": 10,\n      \"medicalSuppliesKit\": 15,\n      \"transportVehicle\": 2,\n      \"basicFoodBasket\": 20\n    }\n  },\n  {\n    \"communityCenterId\": \"7a39ad57-b793-430b-8ce3-7a2b17c19f4e\",\n    \"name\": \"Centro Comunitário Bairro Azul\",\n    \"address\": \"Rua das Flores, 123\",\n    \"maxNumberOfPeople\": 200,\n    \"currentNumberOfPeople\": 120,\n    \"resources\": {\n      \"doctor\": 3,\n      \"volunteer\": 10,\n      \"medicalSuppliesKit\": 15,\n      \"transportVehicle\": 2,\n      \"basicFoodBasket\": 20\n    }\n  }\n]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "averageResources",
+					"item": [
+						{
+							"name": "CT-017",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "apiKey",
+										"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+										"description": "(Required) "
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"url": "{{baseUrl}}/communityCenter/averageResources"
+							},
+							"response": [
+								{
+									"name": "Médias calculadas",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "apiKey",
+												"value": "string",
+												"description": "(Required) "
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											}
+										],
+										"url": "{{baseUrl}}/communityCenter/averageResources"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"averageResources\": {\n    \"doctor\": 5,\n    \"volunteer\": 12,\n    \"transportVehicle\": 3\n  }\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "CT-001",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Testa se a resposta da API foi 201 (Created)\r",
+									"pm.test(\"Status da Resposta é 201 Created\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"});\r",
+									"\r",
+									"// Testa se a resposta contém um ID de centro comunitário e guarda-o\r",
+									"pm.test(\"A Resposta tem o communityCenterId e este é guardado\", function () {\r",
+									"    const responseData = pm.response.json();\r",
+									"    pm.expect(responseData).to.have.property('communityCenterId');\r",
+									"    \r",
+									"    // Guarda o ID numa variável de ambiente para ser usado por outras requisições\r",
+									"    if (responseData.communityCenterId) {\r",
+									"        pm.environment.set(\"createdCenterId\", responseData.communityCenterId);\r",
+									"    }\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "apiKey",
+								"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+								"description": "(Required) "
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Centro Comunitário Pimenteiras\",\n  \"address\": \"Rua das Pimentas, 569\",\n  \"maxNumberOfPeople\": 200,\n  \"currentNumberOfPeople\": 101,\n  \"resources\": {\n    \"doctor\": 0,\n    \"volunteer\": 0,\n    \"medicalSuppliesKit\": 0,\n    \"transportVehicle\": 0,\n    \"basicFoodBasket\": 0\n  }\n}",
+							"options": {
+								"raw": {
+									"headerFamily": "json",
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{baseUrl}}/communityCenter"
+					},
+					"response": [
+						{
+							"name": "Centro comunitário criado",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "apiKey",
+										"value": "string",
+										"description": "(Required) "
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"name\": \"Centro Comunitário Bairro Azul\",\n  \"address\": \"Rua das Flores, 123\",\n  \"maxNumberOfPeople\": 200,\n  \"currentNumberOfPeople\": 120,\n  \"resources\": {\n    \"doctor\": 3,\n    \"volunteer\": 10,\n    \"medicalSuppliesKit\": 15,\n    \"transportVehicle\": 2,\n    \"basicFoodBasket\": 20\n  }\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/communityCenter"
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"communityCenterId\": \"7a39ad57-b793-430b-8ce3-7a2b17c19f4e\"\n}"
+						},
+						{
+							"name": "Criar um novo centro comunitário",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "apiKey",
+										"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+										"description": "(Required) "
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"name\": \"Centro Comunitário Floresta de Aroeira\",\n  \"address\": \"Rua das Orquídeas, 145\",\n  \"maxNumberOfPeople\": 200,\n  \"currentNumberOfPeople\": 90,\n  \"resources\": {\n    \"doctor\": 2,\n    \"volunteer\": 7,\n    \"medicalSuppliesKit\": 12,\n    \"transportVehicle\": 2,\n    \"basicFoodBasket\": 25\n  }\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/communityCenter"
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 10 Sep 2025 17:01:39 GMT"
+								},
+								{
+									"key": "X-Amzn-Trace-Id",
+									"value": "Root=1-68c1aeee-11516d5d722d9c8a2d8bfc08;Parent=39be1feca2683ce5;Sampled=0;Lineage=1:64068cd1:0"
+								},
+								{
+									"key": "x-amzn-RequestId",
+									"value": "fa50b314-3245-4816-8993-82c33a8212e9"
+								},
+								{
+									"key": "Set-cookie",
+									"value": "cookies"
+								},
+								{
+									"key": "x-amz-apigw-id",
+									"value": "QshFQH2aoAMESxA="
+								},
+								{
+									"key": "X-Cache",
+									"value": "Miss from cloudfront"
+								},
+								{
+									"key": "Via",
+									"value": "1.1 109ddf888c59a15bf32e1ac445ae261e.cloudfront.net (CloudFront)"
+								},
+								{
+									"key": "X-Amz-Cf-Pop",
+									"value": "FOR50-P6"
+								},
+								{
+									"key": "X-Amz-Cf-Id",
+									"value": "Dx1fBO5-YUAPJbmYL9duoNrLvnkdVaVqImGiabEqjwxvf8Z5c8CRrw=="
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"communityCenterId\": \"10907b8d-5083-4469-a851-dda0a53cbe48\"\n}"
+						}
+					]
+				},
+				{
+					"name": "CT-002",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Testa se a API barrou a requisição com um erro 400 (Bad Request)\r",
+									"pm.test(\"Status da Resposta é 400 Bad Request\", function () {\r",
+									"    pm.response.to.have.status(400);\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "apiKey",
+								"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+								"description": "(Required) "
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"\",\n  \"address\": \"Rua das Pimentas, 569\",\n  \"maxNumberOfPeople\": 200,\n  \"currentNumberOfPeople\": 101,\n  \"resources\": {\n    \"doctor\": 0,\n    \"volunteer\": 0,\n    \"medicalSuppliesKit\": 0,\n    \"transportVehicle\": 0,\n    \"basicFoodBasket\": 0\n  }\n}",
+							"options": {
+								"raw": {
+									"headerFamily": "json",
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{baseUrl}}/communityCenter"
+					},
+					"response": [
+						{
+							"name": "Centro comunitário criado",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "apiKey",
+										"value": "string",
+										"description": "(Required) "
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"name\": \"Centro Comunitário Bairro Azul\",\n  \"address\": \"Rua das Flores, 123\",\n  \"maxNumberOfPeople\": 200,\n  \"currentNumberOfPeople\": 120,\n  \"resources\": {\n    \"doctor\": 3,\n    \"volunteer\": 10,\n    \"medicalSuppliesKit\": 15,\n    \"transportVehicle\": 2,\n    \"basicFoodBasket\": 20\n  }\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/communityCenter"
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"communityCenterId\": \"7a39ad57-b793-430b-8ce3-7a2b17c19f4e\"\n}"
+						},
+						{
+							"name": "Criar um novo centro comunitário",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "apiKey",
+										"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+										"description": "(Required) "
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"name\": \"Centro Comunitário Floresta de Aroeira\",\n  \"address\": \"Rua das Orquídeas, 145\",\n  \"maxNumberOfPeople\": 200,\n  \"currentNumberOfPeople\": 90,\n  \"resources\": {\n    \"doctor\": 2,\n    \"volunteer\": 7,\n    \"medicalSuppliesKit\": 12,\n    \"transportVehicle\": 2,\n    \"basicFoodBasket\": 25\n  }\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/communityCenter"
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 10 Sep 2025 17:01:39 GMT"
+								},
+								{
+									"key": "X-Amzn-Trace-Id",
+									"value": "Root=1-68c1aeee-11516d5d722d9c8a2d8bfc08;Parent=39be1feca2683ce5;Sampled=0;Lineage=1:64068cd1:0"
+								},
+								{
+									"key": "x-amzn-RequestId",
+									"value": "fa50b314-3245-4816-8993-82c33a8212e9"
+								},
+								{
+									"key": "Set-cookie",
+									"value": "cookies"
+								},
+								{
+									"key": "x-amz-apigw-id",
+									"value": "QshFQH2aoAMESxA="
+								},
+								{
+									"key": "X-Cache",
+									"value": "Miss from cloudfront"
+								},
+								{
+									"key": "Via",
+									"value": "1.1 109ddf888c59a15bf32e1ac445ae261e.cloudfront.net (CloudFront)"
+								},
+								{
+									"key": "X-Amz-Cf-Pop",
+									"value": "FOR50-P6"
+								},
+								{
+									"key": "X-Amz-Cf-Id",
+									"value": "Dx1fBO5-YUAPJbmYL9duoNrLvnkdVaVqImGiabEqjwxvf8Z5c8CRrw=="
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"communityCenterId\": \"10907b8d-5083-4469-a851-dda0a53cbe48\"\n}"
+						}
+					]
+				},
+				{
+					"name": "CT-003",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "apiKey",
+								"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+								"description": "(Required) "
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Centro Comunitário Pimenteiras\",\n  \"address\": \"Rua das Pimentas, 569\",\n  \"maxNumberOfPeople\": 101,\n  \"currentNumberOfPeople\": 100,\n  \"resources\": {\n    \"doctor\": 3,\n    \"volunteer\": 10,\n    \"medicalSuppliesKit\": 4,\n    \"transportVehicle\": 3,\n    \"basicFoodBasket\": 18\n  }\n}",
+							"options": {
+								"raw": {
+									"headerFamily": "json",
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{baseUrl}}/communityCenter"
+					},
+					"response": [
+						{
+							"name": "Centro comunitário criado",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "apiKey",
+										"value": "string",
+										"description": "(Required) "
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"name\": \"Centro Comunitário Bairro Azul\",\n  \"address\": \"Rua das Flores, 123\",\n  \"maxNumberOfPeople\": 200,\n  \"currentNumberOfPeople\": 120,\n  \"resources\": {\n    \"doctor\": 3,\n    \"volunteer\": 10,\n    \"medicalSuppliesKit\": 15,\n    \"transportVehicle\": 2,\n    \"basicFoodBasket\": 20\n  }\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/communityCenter"
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"communityCenterId\": \"7a39ad57-b793-430b-8ce3-7a2b17c19f4e\"\n}"
+						},
+						{
+							"name": "Criar um novo centro comunitário",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "apiKey",
+										"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+										"description": "(Required) "
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"name\": \"Centro Comunitário Floresta de Aroeira\",\n  \"address\": \"Rua das Orquídeas, 145\",\n  \"maxNumberOfPeople\": 200,\n  \"currentNumberOfPeople\": 90,\n  \"resources\": {\n    \"doctor\": 2,\n    \"volunteer\": 7,\n    \"medicalSuppliesKit\": 12,\n    \"transportVehicle\": 2,\n    \"basicFoodBasket\": 25\n  }\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/communityCenter"
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 10 Sep 2025 17:01:39 GMT"
+								},
+								{
+									"key": "X-Amzn-Trace-Id",
+									"value": "Root=1-68c1aeee-11516d5d722d9c8a2d8bfc08;Parent=39be1feca2683ce5;Sampled=0;Lineage=1:64068cd1:0"
+								},
+								{
+									"key": "x-amzn-RequestId",
+									"value": "fa50b314-3245-4816-8993-82c33a8212e9"
+								},
+								{
+									"key": "Set-cookie",
+									"value": "cookies"
+								},
+								{
+									"key": "x-amz-apigw-id",
+									"value": "QshFQH2aoAMESxA="
+								},
+								{
+									"key": "X-Cache",
+									"value": "Miss from cloudfront"
+								},
+								{
+									"key": "Via",
+									"value": "1.1 109ddf888c59a15bf32e1ac445ae261e.cloudfront.net (CloudFront)"
+								},
+								{
+									"key": "X-Amz-Cf-Pop",
+									"value": "FOR50-P6"
+								},
+								{
+									"key": "X-Amz-Cf-Id",
+									"value": "Dx1fBO5-YUAPJbmYL9duoNrLvnkdVaVqImGiabEqjwxvf8Z5c8CRrw=="
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"communityCenterId\": \"10907b8d-5083-4469-a851-dda0a53cbe48\"\n}"
+						}
+					]
+				},
+				{
+					"name": "CT-004",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "apiKey",
+								"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+								"description": "(Required) "
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Centro Comunitário Pimenteiras\",\n  \"address\": \"Rua das Pimentas, 569\",\n  \"maxNumberOfPeople\": 200,\n  \"currentNumberOfPeople\": 101,\n  \"resources\": {\n    \"doctor\": 0,\n    \"volunteer\": 0,\n    \"medicalSuppliesKit\": 0,\n    \"transportVehicle\": 0,\n    \"basicFoodBasket\": 0\n  }\n}",
+							"options": {
+								"raw": {
+									"headerFamily": "json",
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{baseUrl}}/communityCenter"
+					},
+					"response": [
+						{
+							"name": "Centro comunitário criado",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "apiKey",
+										"value": "string",
+										"description": "(Required) "
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"name\": \"Centro Comunitário Bairro Azul\",\n  \"address\": \"Rua das Flores, 123\",\n  \"maxNumberOfPeople\": 200,\n  \"currentNumberOfPeople\": 120,\n  \"resources\": {\n    \"doctor\": 3,\n    \"volunteer\": 10,\n    \"medicalSuppliesKit\": 15,\n    \"transportVehicle\": 2,\n    \"basicFoodBasket\": 20\n  }\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/communityCenter"
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"communityCenterId\": \"7a39ad57-b793-430b-8ce3-7a2b17c19f4e\"\n}"
+						},
+						{
+							"name": "Criar um novo centro comunitário",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "apiKey",
+										"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+										"description": "(Required) "
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"name\": \"Centro Comunitário Floresta de Aroeira\",\n  \"address\": \"Rua das Orquídeas, 145\",\n  \"maxNumberOfPeople\": 200,\n  \"currentNumberOfPeople\": 90,\n  \"resources\": {\n    \"doctor\": 2,\n    \"volunteer\": 7,\n    \"medicalSuppliesKit\": 12,\n    \"transportVehicle\": 2,\n    \"basicFoodBasket\": 25\n  }\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/communityCenter"
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 10 Sep 2025 17:01:39 GMT"
+								},
+								{
+									"key": "X-Amzn-Trace-Id",
+									"value": "Root=1-68c1aeee-11516d5d722d9c8a2d8bfc08;Parent=39be1feca2683ce5;Sampled=0;Lineage=1:64068cd1:0"
+								},
+								{
+									"key": "x-amzn-RequestId",
+									"value": "fa50b314-3245-4816-8993-82c33a8212e9"
+								},
+								{
+									"key": "Set-cookie",
+									"value": "cookies"
+								},
+								{
+									"key": "x-amz-apigw-id",
+									"value": "QshFQH2aoAMESxA="
+								},
+								{
+									"key": "X-Cache",
+									"value": "Miss from cloudfront"
+								},
+								{
+									"key": "Via",
+									"value": "1.1 109ddf888c59a15bf32e1ac445ae261e.cloudfront.net (CloudFront)"
+								},
+								{
+									"key": "X-Amz-Cf-Pop",
+									"value": "FOR50-P6"
+								},
+								{
+									"key": "X-Amz-Cf-Id",
+									"value": "Dx1fBO5-YUAPJbmYL9duoNrLvnkdVaVqImGiabEqjwxvf8Z5c8CRrw=="
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"communityCenterId\": \"10907b8d-5083-4469-a851-dda0a53cbe48\"\n}"
+						}
+					]
+				},
+				{
+					"name": "CT-005",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Testa se a resposta da API foi 200 (OK)\r",
+									"pm.test(\"Status da Resposta é 200 OK\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"// Testa se o corpo da resposta é um array (uma lista)\r",
+									"pm.test(\"O Corpo da Resposta é um Array\", function () {\r",
+									"    const responseData = pm.response.json();\r",
+									"    pm.expect(responseData).to.be.an('array');\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "apiKey",
+								"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+								"description": "(Required) "
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": "{{baseUrl}}/communityCenter"
+					},
+					"response": [
+						{
+							"name": "Lista de centros",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "apiKey",
+										"value": "string",
+										"description": "(Required) "
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/communityCenter?page=1&pageSize=10&sort=-name",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"communityCenter"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1",
+											"description": "Número da página"
+										},
+										{
+											"key": "pageSize",
+											"value": "10",
+											"description": "Quantidade de itens por página"
+										},
+										{
+											"key": "sort",
+											"value": "-name",
+											"description": "Campo de ordenação (prefixe com \"-\" para ordem descendente)"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "[\n  {\n    \"communityCenterId\": \"7a39ad57-b793-430b-8ce3-7a2b17c19f4e\",\n    \"name\": \"Centro Comunitário Bairro Azul\",\n    \"address\": \"Rua das Flores, 123\",\n    \"maxNumberOfPeople\": 200,\n    \"currentNumberOfPeople\": 120,\n    \"resources\": {\n      \"doctor\": 3,\n      \"volunteer\": 10,\n      \"medicalSuppliesKit\": 15,\n      \"transportVehicle\": 2,\n      \"basicFoodBasket\": 20\n    }\n  },\n  {\n    \"communityCenterId\": \"7a39ad57-b793-430b-8ce3-7a2b17c19f4e\",\n    \"name\": \"Centro Comunitário Bairro Azul\",\n    \"address\": \"Rua das Flores, 123\",\n    \"maxNumberOfPeople\": 200,\n    \"currentNumberOfPeople\": 120,\n    \"resources\": {\n      \"doctor\": 3,\n      \"volunteer\": 10,\n      \"medicalSuppliesKit\": 15,\n      \"transportVehicle\": 2,\n      \"basicFoodBasket\": 20\n    }\n  }\n]"
+						}
+					]
+				},
+				{
+					"name": "CT-006",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "apiKey",
+								"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+								"description": "(Required) "
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/communityCenter?page=2&pageSize=2",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"communityCenter"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "2"
+								},
+								{
+									"key": "pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Lista de centros",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "apiKey",
+										"value": "string",
+										"description": "(Required) "
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/communityCenter?page=1&pageSize=10&sort=-name",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"communityCenter"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1",
+											"description": "Número da página"
+										},
+										{
+											"key": "pageSize",
+											"value": "10",
+											"description": "Quantidade de itens por página"
+										},
+										{
+											"key": "sort",
+											"value": "-name",
+											"description": "Campo de ordenação (prefixe com \"-\" para ordem descendente)"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "[\n  {\n    \"communityCenterId\": \"7a39ad57-b793-430b-8ce3-7a2b17c19f4e\",\n    \"name\": \"Centro Comunitário Bairro Azul\",\n    \"address\": \"Rua das Flores, 123\",\n    \"maxNumberOfPeople\": 200,\n    \"currentNumberOfPeople\": 120,\n    \"resources\": {\n      \"doctor\": 3,\n      \"volunteer\": 10,\n      \"medicalSuppliesKit\": 15,\n      \"transportVehicle\": 2,\n      \"basicFoodBasket\": 20\n    }\n  },\n  {\n    \"communityCenterId\": \"7a39ad57-b793-430b-8ce3-7a2b17c19f4e\",\n    \"name\": \"Centro Comunitário Bairro Azul\",\n    \"address\": \"Rua das Flores, 123\",\n    \"maxNumberOfPeople\": 200,\n    \"currentNumberOfPeople\": 120,\n    \"resources\": {\n      \"doctor\": 3,\n      \"volunteer\": 10,\n      \"medicalSuppliesKit\": 15,\n      \"transportVehicle\": 2,\n      \"basicFoodBasket\": 20\n    }\n  }\n]"
+						}
+					]
+				},
+				{
+					"name": "CT-007",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "apiKey",
+								"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+								"description": "(Required) "
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/communityCenter?sort=-name",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"communityCenter"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "-name"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Lista de centros",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "apiKey",
+										"value": "string",
+										"description": "(Required) "
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/communityCenter?page=1&pageSize=10&sort=-name",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"communityCenter"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1",
+											"description": "Número da página"
+										},
+										{
+											"key": "pageSize",
+											"value": "10",
+											"description": "Quantidade de itens por página"
+										},
+										{
+											"key": "sort",
+											"value": "-name",
+											"description": "Campo de ordenação (prefixe com \"-\" para ordem descendente)"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "[\n  {\n    \"communityCenterId\": \"7a39ad57-b793-430b-8ce3-7a2b17c19f4e\",\n    \"name\": \"Centro Comunitário Bairro Azul\",\n    \"address\": \"Rua das Flores, 123\",\n    \"maxNumberOfPeople\": 200,\n    \"currentNumberOfPeople\": 120,\n    \"resources\": {\n      \"doctor\": 3,\n      \"volunteer\": 10,\n      \"medicalSuppliesKit\": 15,\n      \"transportVehicle\": 2,\n      \"basicFoodBasket\": 20\n    }\n  },\n  {\n    \"communityCenterId\": \"7a39ad57-b793-430b-8ce3-7a2b17c19f4e\",\n    \"name\": \"Centro Comunitário Bairro Azul\",\n    \"address\": \"Rua das Flores, 123\",\n    \"maxNumberOfPeople\": 200,\n    \"currentNumberOfPeople\": 120,\n    \"resources\": {\n      \"doctor\": 3,\n      \"volunteer\": 10,\n      \"medicalSuppliesKit\": 15,\n      \"transportVehicle\": 2,\n      \"basicFoodBasket\": 20\n    }\n  }\n]"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "fluxoBásico",
+			"item": [
+				{
+					"name": "1. Criar um novo centro comunitário",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Teste 1: Verificar se o status da resposta é 201 (Criado com sucesso)\r",
+									"pm.test(\"Status code is 201 Created\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"});\r",
+									"\r",
+									"// Teste 2: Verificar se a resposta tem o corpo esperado e capturar o ID\r",
+									"pm.test(\"Response has communityCenterId and save it\", function () {\r",
+									"    const responseData = pm.response.json();\r",
+									"\r",
+									"    // Verifica se a propriedade 'communityCenterId' existe na resposta\r",
+									"    pm.expect(responseData).to.have.property('communityCenterId');\r",
+									"\r",
+									"    // Guarda o valor do ID numa variável de ambiente para usar nas próximas requisições\r",
+									"    if (responseData.communityCenterId) {\r",
+									"        pm.environment.set(\"createdCenterId\", responseData.communityCenterId);\r",
+									"        console.log(\"ID do Centro guardado: \" + pm.environment.get(\"createdCenterId\"));\r",
+									"    }\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "apiKey",
+								"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+								"description": "(Required) "
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Centro Comunitário Cajamanga\",\r\n  \"address\": \"Rua das Oliveiras, 569\",\r\n  \"maxNumberOfPeople\": 300,\r\n  \"currentNumberOfPeople\": 101,\r\n  \"resources\": {\r\n    \"doctor\": 3,\r\n    \"volunteer\": 9,\r\n    \"medicalSuppliesKit\": 20,\r\n    \"transportVehicle\": 5,\r\n    \"basicFoodBasket\": 50\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"headerFamily": "json",
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{baseUrl}}/communityCenter"
+					},
+					"response": []
+				},
+				{
+					"name": "2. Atualizar número atual de pessoas",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 204 No Content\", function () {\r",
+									"    pm.response.to.have.status(204);\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "apiKey",
+								"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+								"description": "(Required) "
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"currentNumberOfPeople\": 50\n}",
+							"options": {
+								"raw": {
+									"headerFamily": "json",
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{baseUrl}}/communityCenter/{{createdCenterId}}/currentNumberOfPeople"
+					},
+					"response": [
+						{
+							"name": "Atualização bem-sucedida",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "apiKey",
+										"value": "string",
+										"description": "(Required) "
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"currentNumberOfPeople\": 120\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/communityCenter/:communityCenterId/currentNumberOfPeople",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"communityCenter",
+										":communityCenterId",
+										"currentNumberOfPeople"
+									],
+									"variable": [
+										{
+											"key": "communityCenterId"
+										}
+									]
+								}
+							},
+							"status": "No Content",
+							"code": 204,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "3. Remover um centro comunitário",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"\r",
+									"pm.test(\"Status code is 204 No Content\", function () {\r",
+									"    pm.response.to.have.status(204);\r",
+									"});\r",
+									"\r",
+									"// Limpa a variável do ambiente após o uso\r",
+									"pm.environment.unset(\"createdCenterId\");"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "apiKey",
+								"value": "d0efb067-f553-4c33-97ed-f532dd0d1db4",
+								"description": "(Required) "
+							}
+						],
+						"url": "{{baseUrl}}/communityCenter/{{createdCenterId}}"
+					},
+					"response": [
+						{
+							"name": "Centro removido com sucesso",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "apiKey",
+										"value": "string",
+										"description": "(Required) "
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/communityCenter/:communityCenterId",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"communityCenter",
+										":communityCenterId"
+									],
+									"variable": [
+										{
+											"key": "communityCenterId"
+										}
+									]
+								}
+							},
+							"status": "No Content",
+							"code": 204,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://cj98hakmf0.execute-api.us-east-1.amazonaws.com/phoebus-apps"
+		}
+	]
+}
