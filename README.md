@@ -1,4 +1,5 @@
 Projeto de Testes e Automação - Community Center API
+
 Este repositório contém os artefactos de teste para a Community Center API, desenvolvidos como parte de um processo seletivo para a área de Quality Assurance. O objetivo principal é validar a funcionalidade, a robustez e a fiabilidade da API, que foi projetada para gerir centros de apoio comunitário durante situações de emergência.
 
 📜 Visão Geral do Projeto
