@@ -93,12 +93,3 @@ No terminal, a partir da raiz do projeto, executa o seguinte comando:
 pytest -v
 
 O comando -v (verbose) irá mostrar um output detalhado de cada teste executado.
-
-📂 Estrutura do Repositório
-.
-├── artefacts/
-│   ├── Roteiro_de_Testes.xlsx
-│   └── Relatorio_Bugs_e_Melhorias.pdf
-├── test_community_center_api.py
-├── Community Center API.postman_collection.json
-└── README.md
